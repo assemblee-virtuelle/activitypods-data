@@ -1,0 +1,18 @@
+{
+  "name": "activitypods-data",
+  "private": true,
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot services importers/*.js",
+    "start": "moleculer-runner services importers/*.js",
+    "link-semapps-packages": "yarn link @semapps/activitypub @semapps/auth @semapps/core @semapps/importer @semapps/jsonld @semapps/ldp @semapps/signature @semapps/sparql-endpoint @semapps/triplestore @semapps/webacl @semapps/webfinger @semapps/webid"
+  },
+  "dependencies": {
+    "@semapps/core": "0.4.0",
+    "@semapps/importer": "0.4.0",
+    "dotenv-flow": "^3.2.0",
+    "moleculer": "^0.14.3",
+    "moleculer-repl": "^0.6.6",
+    "moleculer-web": "^0.10.0-beta1",
+    "url-join": "^4.0.1"
+  }
+}
