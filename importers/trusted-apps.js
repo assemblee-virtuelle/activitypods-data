@@ -4,7 +4,7 @@ const { ImporterMixin } = require('@semapps/importer');
 const CONFIG = require('../config/config');
 
 module.exports = {
-  name: 'importers.formats',
+  name: 'importers.trusted-apps',
   mixins: [ImporterMixin],
   settings: {
     source: {
