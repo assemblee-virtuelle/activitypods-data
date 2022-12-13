@@ -21,8 +21,10 @@ module.exports = {
     transform(data) {
       return({
         '@type': 'apods:TrustedApps',
-        'rdfs:label': data.label,
-        'dc:description': data.description
+        'apods:domainName': data.domainName,
+        'apods:name': data.name,
+        'apods:description': data.description,
+        'apods:logo': data.logo
       });
     },
   }
