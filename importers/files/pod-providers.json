@@ -2,5 +2,13 @@
   {
     "domainName": "mypod.store",
     "area": "France"
+  },
+  {
+    "domainName": "armoise.co",
+    "area": "Oise, France"
+  },
+  {
+    "domainName": "bocage.me",
+    "area": "Orne, France"
   }
 ]
