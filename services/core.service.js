@@ -20,6 +20,7 @@ module.exports = {
     },
     activitypub: false,
     mirror: false,
-    webacl: false
+    webacl: false,
+    webfinger: false
   }
 };
