@@ -3,12 +3,16 @@
     "domainName": "bienvenuechezmoi.org",
     "name": "Bienvenue chez moi",
     "description": "Rencontres privées à domicile autour du partage, de l'entraide et de l'accueil. Se connaître et partager nos connaissances.",
-    "logo": "https://bienvenuechezmoi.org/logo512.png"
+    "logo": "https://bienvenuechezmoi.org/logo512.png",
+    "locales": "fr",
+    "handledTypes": "as:Event"
   },
   {
     "domainName": "lentraide.app",
     "name": "L'Entraide",
     "description": "Petites annonces orientées autour de l'entraide et partageables au sein d'un réseau de confiance.",
-    "logo": "https://lentraide.app/logo512.png"
+    "logo": "https://lentraide.app/logo512.png",
+    "locales": "fr",
+    "handledTypes": ["mp:Offer", "mp:Request"]
   }
 ]

@@ -24,7 +24,9 @@ module.exports = {
         'apods:domainName': data.domainName,
         'apods:name': data.name,
         'apods:description': data.description,
-        'apods:logo': data.logo
+        'apods:logo': data.logo,
+        'apods:locales': data.locales,
+        'apods:handledTypes': data.handledTypes,
       });
     },
   }
