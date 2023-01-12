@@ -2,10 +2,18 @@
   {
     "domainName": "bienvenuechezmoi.org",
     "name": "Bienvenue chez moi",
-    "description": "Rencontres privées à domicile autour du partage, de l'entraide et de l'accueil. Se connaître et partager nos connaissances.",
+    "description": "Rencontres privées à domicile qui favorisent un vivre ensemble basé sur l’accueil, la confiance et l’entraide.",
     "logo": "https://bienvenuechezmoi.org/logo512.png",
     "locales": "fr",
-    "handledTypes": "as:Event"
+    "handledTypes": "https://www.w3.org/ns/activitystreams#Event"
+  },
+  {
+    "domainName": "welcometomyplace.org",
+    "name": "Welcome to my place",
+    "description": "Private meetings at home that promote a living together based on welcome, trust and mutual aid.",
+    "logo": "https://welcometomyplace.org/logo512.png",
+    "locales": "en",
+    "handledTypes": "https://www.w3.org/ns/activitystreams#Event"
   },
   {
     "domainName": "lentraide.app",
@@ -13,6 +21,6 @@
     "description": "Petites annonces orientées autour de l'entraide et partageables au sein d'un réseau de confiance.",
     "logo": "https://lentraide.app/logo512.png",
     "locales": "fr",
-    "handledTypes": ["mp:Offer", "mp:Request"]
+    "handledTypes": ["http://virtual-assembly.org/ontologies/pair-mp#Offer", "http://virtual-assembly.org/ontologies/pair-mp#Request"]
   }
 ]
