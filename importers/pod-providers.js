@@ -23,6 +23,7 @@ module.exports = {
         '@type': 'apods:PodProvider',
         'apods:domainName': data.domainName,
         'apods:area': data.area,
+        'apods:locales': data.locales
       });
     },
   }

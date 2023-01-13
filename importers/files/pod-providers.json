@@ -1,14 +1,17 @@
 [
   {
     "domainName": "mypod.store",
-    "area": "France"
+    "area": "France",
+    "locales": "en"
   },
   {
     "domainName": "armoise.co",
-    "area": "Oise, France"
+    "area": "Oise, France",
+    "locales": "fr"
   },
   {
     "domainName": "bocage.me",
-    "area": "Orne, France"
+    "area": "Orne, France",
+    "locales": "fr"
   }
 ]
