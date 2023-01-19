@@ -22,5 +22,13 @@
     "logo": "https://lentraide.app/logo512.png",
     "locales": "fr",
     "handledTypes": ["http://virtual-assembly.org/ontologies/pair-mp#Offer", "http://virtual-assembly.org/ontologies/pair-mp#Request"]
+  },
+  {
+    "domainName": "mutual-aid.app",
+    "name": "Mutual Aid",
+    "description": "Classified ads oriented around mutual aid and shareable within a trusted network.",
+    "logo": "https://mutual-aid.app/logo512.png",
+    "locales": "en",
+    "handledTypes": ["http://virtual-assembly.org/ontologies/pair-mp#Offer", "http://virtual-assembly.org/ontologies/pair-mp#Request"]
   }
 ]
