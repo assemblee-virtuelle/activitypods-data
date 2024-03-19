@@ -30,5 +30,13 @@
     "logo": "https://mutual-aid.app/logo512.png",
     "locales": "en",
     "handledTypes": ["http://virtual-assembly.org/ontologies/pair-mp#Offer", "http://virtual-assembly.org/ontologies/pair-mp#Request"]
+  },
+  {
+    "domainName": "mastopod.com",
+    "name": "Mastopod",
+    "description": "A Mastodon-compatible app that saves all data in your Pod.",
+    "logo": "https://mastopod.com/logo512.png",
+    "locales": "en",
+    "handledTypes": "https://www.w3.org/ns/activitystreams#Note"
   }
 ]
